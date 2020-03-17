@@ -1,0 +1,74 @@
+.button-group a {
+    color: #ffffff !important;
+}
+.btn {
+    background: #234a57;
+}
+header {
+    background: #060216;
+}
+.admin-wrapper {
+    display: flex;
+    height: calc(100% - 66px);
+}
+.left-sidebar {
+    flex: 2;
+    height: 100%;
+    background: #234a57;
+}
+.left-sidebar ul {
+    list-style: none;
+    margin:0px;
+    padding: 0px;
+    color: #f0f8ff; 
+}
+.left-sidebar ul li a {
+    padding: 18px;
+    display: block;
+    border-bottom: 1px solid #004044;
+}
+.left-sidebar ul li a:hover {
+    background:#004044 ;
+}
+.admin-content {
+    flex: 8;
+    height: 100%;
+    background: #fff;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;   
+}
+.page-title {
+    color: #060216;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3;
+}
+.edit {
+    color: #008000;
+}
+.delete {
+    color: #ff0000;
+}
+.publish {
+  color: #0000ff;  
+}
+.edit:hover,
+.delete:hover,
+.publish:hover {
+    text-decoration: underline;
+}
+button span {
+    color: #fff;
+}
+form div {
+    margin-bottom: 15px;
+}
